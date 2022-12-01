@@ -1,0 +1,84 @@
+.t__first{
+    display: flex;
+    flex-direction: row;
+    zoom:80%;
+  }
+  .search__container{
+    margin-top:4%;
+     margin-left:20%
+  }
+  .css-i4bv87-MuiSvgIcon-root{
+    color: #c9cecf!important;
+    font-size: 1.3rem!important;
+  }
+  .css-to4x1n-MuiBadge-badge{
+    font-weight: 200!important;
+    font-size: 0.55rem!important;
+    min-width: 10px!important;
+    line-height: 1!important;
+    padding: 0 6px!important;
+    height: 14px!important;
+    border-radius: 10px!important;
+    margin-left: -10px!important;
+  }
+
+  .inner__user{
+    display: flex;
+    font-size: 11px;
+    font-weight: 500;
+    margin-top: 7%;
+   
+  }
+
+  .inner__user span{
+    margin-bottom: 20px;
+    color:#645c5c;
+    margin-right: 9px;
+    margin-left: 5%;
+    margin-top: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .inner__user img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border-color: black;
+    margin-left: 10%;
+  }
+  .Toastify__toast-theme--light {
+    
+    font-size: 13px;
+    text-align: center;
+    /* width: 234px; */
+    height: 3px;
+}
+
+@media only screen and (max-width: 1111px) {
+  .inner__user span{
+    margin-bottom: 20px;
+    color:#645c5c;
+    margin-right: 9px;
+    margin-left: 5%;
+    margin-top: 6px;
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  .inner__user img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border-color: black;
+    margin-left: 0%;
+    margin-right: 5%;
+  }
+  .css-i4bv87-MuiSvgIcon-root{
+    color: #c9cecf;
+    font-size: 0.9rem!important;
+  }
+  .search__container{
+    margin-top:4%;
+     margin-left:15%
+  }
+}

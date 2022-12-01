@@ -1,0 +1,135 @@
+.second{
+    height: 90vh;
+    width: 58%;
+    background-color: #0b1346;
+    background-image:
+      repeating-linear-gradient(#274264 0 1px, transparent 1px 100%),
+      repeating-linear-gradient(90deg, #274264 0 1px, transparent 1px 100%)!important;
+    background-size: 42px 41px;
+  }
+.ourfor__mid{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+  .select__container{
+    margin-top: 32px;
+  }
+  .select__container select{
+    width: 20vh;
+    text-align: center;
+    height: 5vh;
+    border-radius: 8%;
+    background-color: #59b0e4;
+    color: whitesmoke;
+    font-size: 12px;
+  }
+
+  .styled-select{
+    margin: right 20px;
+  }
+  .mainforcar{
+    display: flex;
+    zoom:80%;
+  }
+  .leftSide__status{
+    width: 25%;
+  }
+  .midSide__car{
+    width:50%;
+    margin-top: 6%;
+    margin-left: 0%;
+  }
+  .rightSide__status{
+    width: 25%;
+  }
+  .car{
+    width: 230px;
+    
+  }
+  .header{
+    display:flex;
+    flex-direction: row;
+  }
+  .hFirst{
+    color: #d4d3d3;
+    font-weight: 400;
+  }
+  .hSecond{
+    color: #d4d3d3;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+
+  
+  .first__circle{
+    margin-top: 47%;
+    margin-left: 70%;
+    width: 40px;
+  }
+  .head__first__circle{
+    margin-left: 6%;
+    margin-top: 5px;
+  }
+
+  .second__circle{
+    margin-top: 57%;
+    margin-left: 60%;
+    width: 40px;
+  }
+  .head__second__circle{
+    margin-left: 6%;
+    margin-top: 5px;
+  }
+  .third__circle{
+    margin-top: 60%;
+    margin-left: 70%;
+    width: 40px;
+    line-height: 4;
+  }
+  .head__third__circle{
+    margin-left: 7%;
+    margin-top: 0px;
+  }
+  .forth__circle{
+    margin-top: 47%;
+    margin-left: -60%;
+    width: 40px;
+  }
+  .head__forth__circle{
+    margin-left: -8%;
+    margin-top: 5px;
+  }
+  .fifth__circle{
+    margin-top: 57%;
+    margin-left:-55%;
+    width: 40px;
+  }
+  .head__fifth__circle{
+    margin-left: -7%;
+    margin-top: 5px;
+  }
+  
+  .sixth__circle{
+    margin-top: 60%;
+    margin-left: -55%;
+    width: 40px;
+    line-height: 4;
+  }
+
+  .head__sixth__circle{
+    margin-left: -6%;
+    margin-top: 4px;
+  }
+  /* all media queries are here*/
+@media only screen and (max-width: 1240px) {
+  .car {
+    width: 181px;
+}
+}
+@media only screen and (max-width: 1111px) {
+
+  .car {
+    width: 161px;
+}
+}

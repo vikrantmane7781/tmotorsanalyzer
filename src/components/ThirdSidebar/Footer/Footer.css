@@ -1,0 +1,19 @@
+.footer{
+  
+    position: relative;
+    margin-top: 2vh;
+    float: right;
+    margin-right: 13%;
+    zoom:80%;
+}
+.Toastify__toast-theme--light {
+    
+    font-size: 13px;
+    text-align: center;
+    /* width: 234px; */
+    height: 3px;
+}
+
+.css-i4bv87-MuiSvgIcon-root{
+    color: #c9cecf!important;
+}

@@ -1,0 +1,191 @@
+.specs{
+    margin-left: 13%;
+    
+}
+.specs h3{
+    margin-top: 5px;
+}
+.specs h3,h6,h5{
+   
+    font-weight: 500;
+    color:#4b4747;
+}
+
+.km__heading{
+    margin-top: -16px;
+    zoom:80%;
+}
+.km__heading h1{
+    font-weight: 400;
+    color:#4b4747; 
+    font-size: 29px;
+    zoom:80%;
+}
+.total__section h5{
+    font-weight: 500;
+    color:#4b4747;
+}
+ .hr{
+    height: 0.07em;
+    width: 14em;
+    background-color: #e3e3e3;
+    margin-top: 10%;
+}
+.headers{
+    
+    margin-top: -35px;
+}
+.headers h5{
+    font-weight: 400;
+    color: #bdbbbb;
+    font-size: 11px;
+    zoom:80%;
+}
+.title__one{
+    display: flex;
+    flex-direction: row;
+}
+.first__progressBar{
+    margin-top: -25px;
+}
+.title__two{
+    display: flex;
+    flex-direction: row;
+}
+
+.bpg{
+    width: 12em;
+    height: 0.3em;
+}
+.inner{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -35px;
+    zoom:80%;
+}
+.inside .outside{
+    margin-top: -13px;   
+}
+.inside h2,h6{
+    font-weight: 400;
+    color: #bdbbbb;
+}
+.outside h2,h6{
+    font-weight: 400;
+    color: #bdbbbb;
+}
+.outside h2{
+    margin-top: -15px;
+}
+.inside h2{
+    margin-top: -15px;
+}
+
+.outside small{
+     font-size: 13px;
+}
+.inside small{
+    font-size: 13px;
+}
+.engine h6{
+    margin-top: -4px;
+    line-height: 0px;
+    margin-bottom: 8px;
+}
+.midTotalContainer{
+    display: flex;
+    
+}
+.img_div{
+    margin-left: 10%;
+}
+.headlight{
+    height: 16px;
+    margin-top: 4px;
+    margin-left: 29%;
+}
+.engine{
+    height: 25px;
+    margin-left:10%;
+}
+.tire{
+    height: 15px;
+}
+.dot {
+    height: 4px;
+    width: 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    border: none;
+    display: inline-block;
+    margin-left: 4px;
+  }
+  .red{
+    background-color: red;
+    color:#eb9b9b;
+  }
+  .blue{
+    background-color: #3535f7;
+    color: #8e8edd;
+  }
+  .dot__engine{
+    margin-top: 0%;
+    line-height: 0px;
+    margin-left: -4px;
+    
+  }
+  .dot__headlight{
+    margin-top: 7%;
+    line-height: 0px;
+    margin-left: 4%;
+  }
+  .dot__tire{
+    margin-top: 16%;
+    line-height: 0px;
+    margin-left: -22%;
+  }
+
+  @media only screen and (max-width: 1111px) {
+    .bpg{
+        width: 10em;
+        height: 0.3em;
+    }
+    .hr{
+        width: 10em;
+    }
+    .engine h6{
+        font-size: 9px;
+    font-weight: revert;
+    }
+    .engine{
+        height: 16px;
+       
+    }
+    .headlight{
+        height: 12px;
+        margin-top: 4px;
+        
+    }
+    
+    .tire{
+        height: 10px;
+    }
+
+    .dot {
+        height: 3px;
+        width: 3px;
+       
+      }
+    
+      .dot__headlight{
+        margin-top: 1%;
+        
+      }
+      .dot__tire{
+        margin-top: -0%;
+        
+      }
+      .midTotalContainer{
+        margin-bottom: 27px;
+      }
+  }
